@@ -4,7 +4,9 @@
   "description": "Estudo de nodejs pelo curso do Rodrigo Manguinho",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "prepare": "husky install",
+    "eslint": ".\node_modules\\.bin\\eslint "
   },
   "repository": {
     "type": "git",
@@ -18,17 +20,20 @@
   },
   "homepage": "https://github.com/thiagoprochnow/node-rodrigo-manguinho#readme",
   "devDependencies": {
-    "@types/node": "^15.12.4",
-    "@typescript-eslint/eslint-plugin": "^2.33.0",
-    "@typescript-eslint/parser": "^4.28.0",
-    "eslint": "^7.29.0",
-    "eslint-config-standard-with-typescript": "^16.0.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.3.1",
-    "git-commit-msg-linter": "^3.2.6",
-    "husky": "^6.0.0",
-    "lint-staged": "^11.0.0",
-    "typescript": "^4.3.4"
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.1.6",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard-with-typescript": "^11.0.1",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "git-commit-msg-linter": "^2.3.11",
+    "husky": "^4.0.6",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.5.0",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.7.4"
   }
 }
