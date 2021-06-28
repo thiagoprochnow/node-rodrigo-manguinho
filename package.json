@@ -4,6 +4,8 @@
   "description": "Estudo de nodejs pelo curso do Rodrigo Manguinho",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
+    "test:staged": "jest",
     "prepare": "husky install",
     "eslint": ".\node_modules\\.bin\\eslint "
   },
