@@ -11,7 +11,8 @@
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage",
     "prepare": "husky install",
-    "eslint": ".\node_modules\\.bin\\eslint "
+    "eslint": ".\node_modules\\.bin\\eslint ",
+    "pre-commit": "lint-staged"
   },
   "repository": {
     "type": "git",
