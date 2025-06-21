@@ -20,5 +20,8 @@
     "lint-staged": "^16.1.2",
     "ts-jest": "^29.4.0",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
   }
 }
